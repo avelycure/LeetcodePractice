@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/twoSumFragment">
+    <fragment
+        android:id="@+id/twoSumFragment"
+        android:name="com.example.leetcodepractice.fragments.TwoSumFragment"
+        android:label="fragment_two_sum"
+        tools:layout="@layout/fragment_two_sum" />
+</navigation>
