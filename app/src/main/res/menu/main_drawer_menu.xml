@@ -8,6 +8,6 @@
             android:title="Two sum" />
         <item
             android:id="@+id/problem_next_sum"
-            android:title="Next sum" />
+            android:title="Add Two Numbers" />
     </group>
 </menu>
