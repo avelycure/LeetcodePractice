@@ -8,7 +8,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import com.example.leetcodepractice.R
 
-class FragmentNextSum: Fragment() {
+class NextSumFragment: Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
     }
@@ -19,7 +19,7 @@ class FragmentNextSum: Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view = inflater.inflate(R.layout.fragment_two_sum, container, false)
+        val view = inflater.inflate(R.layout.fragment_layout, container, false)
         tv = view.findViewById(R.id.fragment_tv)
         tv.text = "Next sum"
         return view

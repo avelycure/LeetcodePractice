@@ -8,14 +8,14 @@
         android:id="@+id/twoSumFragment"
         android:name="com.example.leetcodepractice.fragments.TwoSumFragment"
         android:label="fragment_two_sum"
-        tools:layout="@layout/fragment_two_sum" >
+        tools:layout="@layout/fragment_layout" >
         <action
             android:id="@+id/action_twoSumFragment_to_fragmentNextSum"
             app:destination="@id/fragmentNextSum" />
     </fragment>
     <fragment
         android:id="@+id/fragmentNextSum"
-        android:name="com.example.leetcodepractice.fragments.FragmentNextSum"
+        android:name="com.example.leetcodepractice.fragments.NextSumFragment"
         android:label="fragment_next_sum"
-        tools:layout="@layout/fragment_two_sum" />
+        tools:layout="@layout/fragment_layout" />
 </navigation>
