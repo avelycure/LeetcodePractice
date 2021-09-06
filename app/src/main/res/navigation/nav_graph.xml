@@ -12,10 +12,18 @@
         <action
             android:id="@+id/action_twoSumFragment_to_fragmentNextSum"
             app:destination="@id/fragmentNextSum" />
+        <action
+            android:id="@+id/action_twoSumFragment_to_fragmentThreeSumClosest"
+            app:destination="@id/fragmentThreeSumClosest" />
     </fragment>
     <fragment
         android:id="@+id/fragmentNextSum"
         android:name="com.example.leetcodepractice.fragments.AddTwoNumbersFragment"
         android:label="fragment_next_sum"
+        tools:layout="@layout/fragment_layout" />
+    <fragment
+        android:id="@+id/fragmentThreeSumClosest"
+        android:name="com.example.leetcodepractice.fragments.ThreeSumClosestFragment"
+        android:label="fragment_three_sum_closest"
         tools:layout="@layout/fragment_layout" />
 </navigation>
