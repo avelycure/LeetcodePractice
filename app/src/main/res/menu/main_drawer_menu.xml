@@ -12,6 +12,9 @@
                 <item
                     android:id="@+id/problem_next_sum"
                     android:title="Add Two Numbers" />
+                <item
+                    android:id="@+id/problem_roman_to_int"
+                    android:title="Roman to int" />
             </group>
         </menu>
     </item>

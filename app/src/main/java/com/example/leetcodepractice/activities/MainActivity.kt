@@ -41,6 +41,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.problem_two_sum -> navController.navigate(R.id.twoSumFragment)
                 R.id.problem_next_sum -> navController.navigate(R.id.fragmentNextSum)
                 R.id.problem_three_sum_closest -> navController.navigate(R.id.fragmentThreeSumClosest)
+                R.id.problem_roman_to_int -> navController.navigate(R.id.fragmentRomanToInt)
             }
             drawer.closeDrawer(GravityCompat.START)
             false

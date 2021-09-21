@@ -22,6 +22,11 @@
         android:label="fragment_next_sum"
         tools:layout="@layout/fragment_layout" />
     <fragment
+        android:id="@+id/fragmentRomanToInt"
+        android:name="com.example.leetcodepractice.fragments.RomanToIntFragment"
+        android:label="fragment_roman_to_int"
+        tools:layout="@layout/fragment_layout" />
+    <fragment
         android:id="@+id/fragmentThreeSumClosest"
         android:name="com.example.leetcodepractice.fragments.ThreeSumClosestFragment"
         android:label="fragment_three_sum_closest"
